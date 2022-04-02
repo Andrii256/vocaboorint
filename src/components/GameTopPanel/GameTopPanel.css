@@ -1,0 +1,40 @@
+.GameTopPanel {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+}
+
+.GameTopPanel__exit {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  padding: 5px 15px 5px 0;
+  background: none;
+  border: none;
+  color: #91919f;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.GameTopPanel__exitIcon {
+  display: block;
+  margin-right: 8px;
+}
+
+.GameTopPanel__timer {
+  flex-grow: 1;
+  text-align: center;
+  font-size: 14px;
+  line-height: 22px;
+  color: #91919f;
+}
+
+.GameTopPanel__sound {
+  border: none;
+  width: fit-content;
+  justify-self: end;
+  margin-right: 5vw;
+  cursor: pointer;
+  background: none;
+}

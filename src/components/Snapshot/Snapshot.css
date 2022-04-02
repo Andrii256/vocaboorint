@@ -1,0 +1,24 @@
+.Snapshot {
+  padding: 22px 35px;
+}
+
+.Snapshot__list {
+  margin: 0 auto;
+  max-height: 100%;
+  overflow-y: auto;
+  list-style: none;
+  color: #ffffff;
+}
+
+.Snapshot__item {
+  margin-bottom: 0.5em;
+}
+
+.Snapshot__correctTranslation {
+  color: #e1ffdf;
+}
+
+.Snapshot__wrongTranslation {
+  color: #ffe9e9;
+  text-decoration: line-through;
+}

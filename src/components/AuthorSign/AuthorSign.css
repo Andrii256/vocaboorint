@@ -1,0 +1,11 @@
+.AuthorSign {
+  text-align: center;
+  font-size: 10px;
+  line-height: 1.3em;
+  color: #91919F;
+}
+
+.AuthorSign__link {
+  text-decoration: none;
+  color: #6360FF;
+}

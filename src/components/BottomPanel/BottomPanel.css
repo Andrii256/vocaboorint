@@ -1,0 +1,33 @@
+.BottomPanel {
+  padding: 25px 25px 45px;
+  background: #f1f1fa;
+  border-radius: 30px 30px 0px 0px;
+}
+
+.BottomPanel__start {
+  margin-bottom: 45px;
+}
+
+.BottomPanel__titers {
+}
+
+.BottomPanel__direction {
+  display: block;
+  margin: 0 auto 22px;
+}
+
+.BottomPanel__titer-links {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 65px;
+}
+
+.BottomPanel__link {
+  color: #91919f;
+  font-size: 12px;
+  line-height: 22px;
+}
+
+.BottomPanel__author {
+
+}

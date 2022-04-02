@@ -1,0 +1,45 @@
+.PlayPage {
+  height: calc(var(--vh, 1vh) * 100);
+  padding: 6vw 1.5vw;
+}
+
+.PlayPage__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  padding: 2vw 1vw;
+  background: #f1f1fa;
+  border-radius: 10px;
+}
+.PlayPage__content--wrong {
+  background: #ffe9e9;
+}
+.PlayPage__content--correct {
+  background: #e1ffdf;
+}
+
+.PlayPage__topPanel {
+}
+
+.PlayPage__status {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 31px;
+  text-align: center;
+}
+
+.PlayPage__word {
+}
+
+.PlayPage__skip {
+  background: none;
+  border: none;
+  padding: 10px;
+  text-decoration: underline;
+  font-size: 12px;
+  line-height: 22px;
+  color: #91919f;
+}

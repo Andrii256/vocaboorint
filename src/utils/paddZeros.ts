@@ -1,0 +1,1 @@
+export const paddZeros = (raw: string | number, desirableLength = 2) => String(raw).length >= desirableLength ? String(raw) : String(raw).padStart(desirableLength, '0')

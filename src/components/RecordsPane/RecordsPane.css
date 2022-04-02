@@ -1,0 +1,51 @@
+.RecordsPane {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  padding: 25px 20px;
+}
+
+.RecordsPane::after {
+  content: "";
+  position: absolute;
+  bottom: 1px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: calc(100% - 50px);
+  height: 1px;
+  background: rgba(243, 243, 248, 0.3);
+}
+
+.RecordsPane__column {
+  display: flex;
+}
+
+.RecordsPane__icon-wrapper {
+  display: flex;
+  justify-content: center;
+  width: 35px;
+  margin-right: 10px;
+}
+
+.RecordsPane__content {
+}
+
+.RecordsPane__title {
+  display: block;
+  margin-bottom: 4px;
+  font-size: 10px;
+  line-height: 13px;
+}
+.RecordsPane__title--green {
+  color: #e1ffdf;
+}
+.RecordsPane__title--golden {
+  color: #ffc960;
+}
+
+.RecordsPane__item {
+  display: block;
+  font-size: 14px;
+  line-height: 18px;
+  color: #fcfcff;
+}

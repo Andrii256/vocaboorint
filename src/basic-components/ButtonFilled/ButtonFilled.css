@@ -1,0 +1,33 @@
+.ButtonFilled {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+  color: #fcfcff;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+.ButtonFilled--green {
+  background: #7dc579;
+}
+.ButtonFilled--green:active {
+  background: #6ab866;
+}
+.ButtonFilled--red {
+  background: #ff8181;
+}
+.ButtonFilled--red:active {
+  background: #f16f6f;
+}
+.ButtonFilled--violet {
+  background: #6360ff;
+}
+.ButtonFilled--violet:active {
+  background: #4c49e9;
+}
+.ButtonFilled:disabled {
+  background: #a8a8a8;
+}

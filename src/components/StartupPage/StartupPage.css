@@ -1,0 +1,24 @@
+.StartupPage {
+  --height-RecordsPane: 105px;
+  --height-BottomPanel-visible: 280px;
+  --height-BottomPanel-hidden: 50px;
+  --height-Snapshot: calc(
+    (var(--vh, 1vh) * 100) - var(--height-BottomPanel-visible) -
+      var(--height-BottomPanel-hidden)
+  );
+}
+
+.StartupPage__RecordsPane {
+  margin: auto;
+  height: var(--height-RecordsPane);
+}
+
+.StartupPage__Snapshot {
+  height: var(--height-Snapshot);
+}
+
+.StartupPage__BottomPanel {
+  height: calc(
+    var(--height-BottomPanel-visible) + var(--height-BottomPanel-hidden)
+  );
+}

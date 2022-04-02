@@ -1,0 +1,10 @@
+.AnalyticsPage__textaria {
+  display: block;
+  width: 100%;
+  min-height: 80vh;
+  margin-bottom: 20px;
+  padding: 15px;
+  background: #fcfcff;
+  border-radius: 10px;
+  border: none;
+}

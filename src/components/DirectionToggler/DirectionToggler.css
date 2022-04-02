@@ -1,0 +1,15 @@
+.DirectionToggler {
+  padding: 10px;
+  text-align: center;
+  width: 120px;
+  color: #292b2d;
+  font-size: 17px;
+  font-weight: 700;
+  background: #fcfcff;
+  border-radius: 20px;
+  cursor: pointer;
+  border: none;
+}
+.DirectionToggler:active {
+  background: #e6e6eb;
+}

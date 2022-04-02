@@ -1,0 +1,28 @@
+.GameWord {
+  width: 100%;
+  padding: 0 0.5vw 7vw;
+  background: #fcfcff;
+  border-radius: 10px;
+}
+
+.GameWord__word {
+  margin: 57px auto;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 31px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.GameWord__variants {
+  --gap: 8px;
+  display: grid;
+  grid-template-columns: repeat(2, calc(50% - var(--gap) / 2));
+  gap: var(--gap);
+}
+
+.GameWord__variant {
+  padding: 16px 2px;
+  overflow-wrap: break-word;
+  text-transform: lowercase;
+}
