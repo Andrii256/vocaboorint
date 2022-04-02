@@ -62,9 +62,9 @@ iOS: [see image in full resolution](${iOS})
 
 ## Contribution and bug reporting:
 
-If you found a bug or have constructive critics, please create issue [here](https://github.com/Andrii256/personal__vocaburint/issues).
+If you found a bug or have constructive critics, please create issue [here](https://github.com/Andrii256/vocaboorint/issues).
 
-If you want contribute, you can fork this [github repo](https://github.com/Andrii256/personal__vocaburint) and then send me your PR.
+If you want contribute, you can fork this [github repo](https://github.com/Andrii256/vocaboorint/tree/master) and then send me your PR.
 
 Also you can **star** this app in github.
 
